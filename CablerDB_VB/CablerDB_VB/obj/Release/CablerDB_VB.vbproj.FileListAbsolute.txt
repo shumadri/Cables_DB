@@ -1,0 +1,41 @@
+C:\Users\dhernandez06\OneDrive - kochind.com\Desktop\CablerDB_VB\CablerDB_VB\bin\Release\Traza.mdb
+C:\Users\dhernandez06\OneDrive - kochind.com\Desktop\CablerDB_VB\CablerDB_VB\bin\Release\CablerDB_VB.exe.config
+C:\Users\dhernandez06\OneDrive - kochind.com\Desktop\CablerDB_VB\CablerDB_VB\bin\Release\CablerDB_VB.exe.manifest
+C:\Users\dhernandez06\OneDrive - kochind.com\Desktop\CablerDB_VB\CablerDB_VB\bin\Release\CablerDB_VB.application
+C:\Users\dhernandez06\OneDrive - kochind.com\Desktop\CablerDB_VB\CablerDB_VB\bin\Release\CablerDB_VB.exe
+C:\Users\dhernandez06\OneDrive - kochind.com\Desktop\CablerDB_VB\CablerDB_VB\bin\Release\CablerDB_VB.pdb
+C:\Users\dhernandez06\OneDrive - kochind.com\Desktop\CablerDB_VB\CablerDB_VB\bin\Release\CablerDB_VB.xml
+C:\Users\dhernandez06\OneDrive - kochind.com\Desktop\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.vbprojAssemblyReference.cache
+C:\Users\dhernandez06\OneDrive - kochind.com\Desktop\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.braider.resources
+C:\Users\dhernandez06\OneDrive - kochind.com\Desktop\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.buscar.resources
+C:\Users\dhernandez06\OneDrive - kochind.com\Desktop\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.cabler.resources
+C:\Users\dhernandez06\OneDrive - kochind.com\Desktop\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.jacket.resources
+C:\Users\dhernandez06\OneDrive - kochind.com\Desktop\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.menu.resources
+C:\Users\dhernandez06\OneDrive - kochind.com\Desktop\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.Resources.resources
+C:\Users\dhernandez06\OneDrive - kochind.com\Desktop\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.vbproj.GenerateResource.cache
+C:\Users\dhernandez06\OneDrive - kochind.com\Desktop\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.vbproj.CoreCompileInputs.cache
+C:\Users\dhernandez06\OneDrive - kochind.com\Desktop\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.exe.manifest
+C:\Users\dhernandez06\OneDrive - kochind.com\Desktop\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.application
+C:\Users\dhernandez06\OneDrive - kochind.com\Desktop\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.exe
+C:\Users\dhernandez06\OneDrive - kochind.com\Desktop\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.xml
+C:\Users\dhernandez06\OneDrive - kochind.com\Desktop\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.pdb
+G:\TempFlex\Daniel H\Desarrollos\CablerDB_VB\CablerDB_VB\bin\Release\Traza.mdb
+G:\TempFlex\Daniel H\Desarrollos\CablerDB_VB\CablerDB_VB\bin\Release\CablerDB_VB.exe.config
+G:\TempFlex\Daniel H\Desarrollos\CablerDB_VB\CablerDB_VB\bin\Release\CablerDB_VB.exe.manifest
+G:\TempFlex\Daniel H\Desarrollos\CablerDB_VB\CablerDB_VB\bin\Release\CablerDB_VB.application
+G:\TempFlex\Daniel H\Desarrollos\CablerDB_VB\CablerDB_VB\bin\Release\CablerDB_VB.exe
+G:\TempFlex\Daniel H\Desarrollos\CablerDB_VB\CablerDB_VB\bin\Release\CablerDB_VB.pdb
+G:\TempFlex\Daniel H\Desarrollos\CablerDB_VB\CablerDB_VB\bin\Release\CablerDB_VB.xml
+G:\TempFlex\Daniel H\Desarrollos\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.vbprojAssemblyReference.cache
+G:\TempFlex\Daniel H\Desarrollos\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.braider.resources
+G:\TempFlex\Daniel H\Desarrollos\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.buscar.resources
+G:\TempFlex\Daniel H\Desarrollos\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.cabler.resources
+G:\TempFlex\Daniel H\Desarrollos\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.jacket.resources
+G:\TempFlex\Daniel H\Desarrollos\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.menu.resources
+G:\TempFlex\Daniel H\Desarrollos\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.Resources.resources
+G:\TempFlex\Daniel H\Desarrollos\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.vbproj.GenerateResource.cache
+G:\TempFlex\Daniel H\Desarrollos\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.exe.manifest
+G:\TempFlex\Daniel H\Desarrollos\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.application
+G:\TempFlex\Daniel H\Desarrollos\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.exe
+G:\TempFlex\Daniel H\Desarrollos\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.xml
+G:\TempFlex\Daniel H\Desarrollos\CablerDB_VB\CablerDB_VB\obj\Release\CablerDB_VB.pdb
