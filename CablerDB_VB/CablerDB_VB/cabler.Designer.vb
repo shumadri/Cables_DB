@@ -86,7 +86,14 @@ Partial Class cabler
         Me.Button3 = New System.Windows.Forms.Button()
         Me.TextBox38 = New System.Windows.Forms.TextBox()
         Me.TextBox39 = New System.Windows.Forms.TextBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
+        Me.TextBox40 = New System.Windows.Forms.TextBox()
+        Me.Label20 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
         'label12
@@ -102,7 +109,7 @@ Partial Class cabler
         'button2
         '
         Me.button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.button2.Location = New System.Drawing.Point(843, 407)
+        Me.button2.Location = New System.Drawing.Point(1104, 284)
         Me.button2.Name = "button2"
         Me.button2.Size = New System.Drawing.Size(107, 40)
         Me.button2.TabIndex = 37
@@ -112,9 +119,9 @@ Partial Class cabler
         'button1
         '
         Me.button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.button1.Location = New System.Drawing.Point(843, 282)
+        Me.button1.Location = New System.Drawing.Point(1018, 111)
         Me.button1.Name = "button1"
-        Me.button1.Size = New System.Drawing.Size(107, 104)
+        Me.button1.Size = New System.Drawing.Size(193, 56)
         Me.button1.TabIndex = 36
         Me.button1.Text = "CARGAR DATOS"
         Me.button1.UseVisualStyleBackColor = True
@@ -340,9 +347,9 @@ Partial Class cabler
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.Location = New System.Drawing.Point(12, 129)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(154, 20)
+        Me.Label13.Size = New System.Drawing.Size(159, 20)
         Me.Label13.TabIndex = 47
-        Me.Label13.Text = "CANTIDAD EN FT"
+        Me.Label13.Text = "CANTIDAD EN FT:"
         '
         'TextBox11
         '
@@ -693,7 +700,7 @@ Partial Class cabler
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(791, 198)
+        Me.Button3.Location = New System.Drawing.Point(1018, 27)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(193, 66)
         Me.Button3.TabIndex = 85
@@ -703,7 +710,7 @@ Partial Class cabler
         'TextBox38
         '
         Me.TextBox38.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox38.Location = New System.Drawing.Point(786, 462)
+        Me.TextBox38.Location = New System.Drawing.Point(786, 415)
         Me.TextBox38.Name = "TextBox38"
         Me.TextBox38.Size = New System.Drawing.Size(175, 26)
         Me.TextBox38.TabIndex = 86
@@ -713,18 +720,83 @@ Partial Class cabler
         'TextBox39
         '
         Me.TextBox39.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox39.Location = New System.Drawing.Point(786, 494)
+        Me.TextBox39.Location = New System.Drawing.Point(967, 415)
         Me.TextBox39.Name = "TextBox39"
         Me.TextBox39.Size = New System.Drawing.Size(175, 26)
         Me.TextBox39.TabIndex = 87
         Me.TextBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.TextBox39.Visible = False
         '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.Label20)
+        Me.GroupBox2.Controls.Add(Me.TextBox40)
+        Me.GroupBox2.Controls.Add(Me.CheckBox3)
+        Me.GroupBox2.Controls.Add(Me.CheckBox2)
+        Me.GroupBox2.Controls.Add(Me.CheckBox1)
+        Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox2.Location = New System.Drawing.Point(791, 187)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(285, 222)
+        Me.GroupBox2.TabIndex = 88
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Validacion Ingenieria"
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(15, 34)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(194, 24)
+        Me.CheckBox1.TabIndex = 0
+        Me.CheckBox1.Text = "Materiales Correctos"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
+        'CheckBox2
+        '
+        Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.Location = New System.Drawing.Point(15, 64)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.Size = New System.Drawing.Size(257, 24)
+        Me.CheckBox2.TabIndex = 1
+        Me.CheckBox2.Text = "Ordenado de Cable Correcto"
+        Me.CheckBox2.UseVisualStyleBackColor = True
+        '
+        'CheckBox3
+        '
+        Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.Location = New System.Drawing.Point(15, 97)
+        Me.CheckBox3.Name = "CheckBox3"
+        Me.CheckBox3.Size = New System.Drawing.Size(254, 24)
+        Me.CheckBox3.TabIndex = 2
+        Me.CheckBox3.Text = "Reporte Eléctrico Verificado"
+        Me.CheckBox3.UseVisualStyleBackColor = True
+        '
+        'TextBox40
+        '
+        Me.TextBox40.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox40.Location = New System.Drawing.Point(131, 153)
+        Me.TextBox40.Name = "TextBox40"
+        Me.TextBox40.Size = New System.Drawing.Size(148, 26)
+        Me.TextBox40.TabIndex = 89
+        Me.TextBox40.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Location = New System.Drawing.Point(11, 159)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(119, 20)
+        Me.Label20.TabIndex = 89
+        Me.Label20.Text = "NE Ingeniero:"
+        '
         'cabler
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(996, 526)
+        Me.ClientSize = New System.Drawing.Size(1223, 478)
+        Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.TextBox39)
         Me.Controls.Add(Me.TextBox38)
         Me.Controls.Add(Me.Button3)
@@ -793,6 +865,8 @@ Partial Class cabler
         Me.Text = "CARGAR DATOS DE CABLER"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -861,4 +935,10 @@ Partial Class cabler
     Private WithEvents Button3 As Button
     Private WithEvents TextBox38 As TextBox
     Private WithEvents TextBox39 As TextBox
+    Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents CheckBox3 As CheckBox
+    Friend WithEvents CheckBox2 As CheckBox
+    Friend WithEvents CheckBox1 As CheckBox
+    Private WithEvents Label20 As Label
+    Private WithEvents TextBox40 As TextBox
 End Class

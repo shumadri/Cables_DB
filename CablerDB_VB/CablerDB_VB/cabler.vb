@@ -238,6 +238,14 @@ Public Class cabler
             End If
         End If
 
+        If CheckBox1.Checked = False Or CheckBox2.Checked = False Or CheckBox3.Checked = False Then
+            MsgBox("Las verificaciones por parte del ingeniero de maquinas no se han realizado.", MsgBoxStyle.Information, "AVISO")
+            Exit Sub
+        End If
+        If TextBox40.Text = "" Then
+            MsgBox("El Campo del Numero de Empleado del Ingeniero de maquinas esta vacio", MsgBoxStyle.Information, "AVISO")
+        End If
+
 
 
         Dim conect_string As String = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=G:\TempFlex\Daniel H\Trazabilidad.mdb"
@@ -258,7 +266,7 @@ Public Class cabler
         Comando.Parameters.AddWithValue("@tw7", textBox8.Text & "-" & TextBox14.Text & "-" & TextBox23.Text & "-" & TextBox31.Text)
         Comando.Parameters.AddWithValue("@tw8", textBox9.Text & "-" & TextBox13.Text & "-" & TextBox22.Text & "-" & TextBox30.Text)
         Comando.Parameters.AddWithValue("@cant", TextBox11.Text)
-        Comando.Parameters.AddWithValue("@fecha", DateTime.Now.ToString("dd/MM/yyyy") & " " & DateTime.Now.ToLongTimeString)
+        Comando.Parameters.AddWithValue("@fecha", DateTime.Now.ToString("dd/MM/yyyy") & " " & DateTime.Now.ToLongTimeString & "-" & TextBox40.Text)
         Comando.ExecuteNonQuery()
         conect.Close()
 
@@ -268,6 +276,10 @@ Public Class cabler
         If response = vbYes Then
             TextBox11.Text = ""
             textBox1.Text = ""
+            TextBox40.Text = ""
+            CheckBox1.Checked = False
+            CheckBox2.Checked = False
+            CheckBox3.Checked = False
         Else
             textBox1.Text = ""
             textBox2.Text = ""
@@ -316,6 +328,10 @@ Public Class cabler
             Button3.BackColor = Color.Red
             TextBox12.Text = ""
             TextBox15.Text = ""
+            TextBox40.Text = ""
+            CheckBox1.Checked = False
+            CheckBox2.Checked = False
+            CheckBox3.Checked = False
         End If
 
 
